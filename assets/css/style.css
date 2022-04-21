@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body, a {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    /* filter: grayscale(70%); */
+    background: url("../img/Abuja_Nigeria.jpg") no-repeat center left;
+}
+
+.leftSideBar {
+    flex-grow: 4;
+    padding: 35px 40px 30px 30px;
+    background-color: rgba(163, 36, 36, 0.85);
+}
+
+.profileWrapper {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.profileWrapper img {
+    display: block;
+    margin: 0 auto 20px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.profileWrapper > h3 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.profileWrapper > h4 {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+
+.leftBarMenu > nav li {
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 12px;
+}
+
+.leftBarMenu > nav li:nth-child(4) {
+    margin-top: 30px;
+}
+
+.leftBarMenu > nav li:nth-child(8) {
+    margin-top: 60px;
+}
+
+.iconsContainer {
+    margin-top: 4px;
+}
+
+.iconsContainer nav li {
+    font-size: 18px;
+    display: inline;
+    padding-right: 6px;
+}
+
+/*right side div starts here */
+.rightSideMain {
+    flex-grow: 6;
+    width: 70%;
+    padding: 102px 0 0 70px;
+    filter: grayscale(80%);
+    background: url("../img/Abuja_Nigeria.jpg") no-repeat center left;
+}
+
+.introContainer > h1 {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding-bottom: 18px;
+}
+
+.introContainer > p {
+    width: 66%;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.7em;
+    text-transform: lowercase;
+    margin-bottom: 110px;
+}
+
+.rightSideMenu {
+    width: 20%;
+
+}
+
+.rightSideMenu > nav li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+}
+
+.rightSideMenu a {
+    margin-top: 500px;
+}
+
+
+
